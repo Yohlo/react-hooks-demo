@@ -31,3 +31,117 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(244, 243, 243);
+  font-family: "Lato", sans-serif;
+}
+
+.App div div {
+  max-width: 480px;
+  margin: auto;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  border-radius: 0.5rem;
+}
+
+.App h2 {
+  align-self: flex-start;
+  font-size: 3rem;
+  font-weight: 300;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.App form {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+input {
+  width: 75%;
+  margin-right: 25px;
+  padding: 15px 0 15px 15px;
+  border-radius: 4px;
+  border: 1px solid rgb(238, 238, 238);
+  box-shadow: 2px 2px 3px 0px #ccc;
+}
+
+button {
+  background: #62c7ff;
+  border: none;
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+  padding: 15px 25px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 50px;
+  padding: 0;
+}
+
+li {
+  font-weight: 300;
+  padding: 20px 0 20px 0;
+  border-top: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  width: 100%;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+img {
+  height: 25px;
+}
+
+button.action {
+  color: #333;
+  background: none;
+  padding: 0;
+}
+
+button.action:focus {
+  outline: none;
+}
+
+.demo {
+  background-color: #00695c !important;
+  font-family: 'Indie Flower', cursive;
+}
+
+.demo h2, .demo li {
+  color: white !important;
+}
+
+.demo button {
+  background: #439889;
+}
+
+.demo input {
+  box-shadow: 1px 2px 3px 0px #3c3c3c;
+}
+
+.demo input:focus {
+  outline: none;
+  border: 1px solid black;
+}
+
+.demo li {
+  border-top: 2px dashed #eee;
+}
